@@ -5,6 +5,7 @@
 This application uses the following technologies:
 
 	- PHP
+	- Node
 	- Laravel framework
 
 ## Prerequisites
@@ -55,6 +56,23 @@ Start the database container using Docker Compose.
 ```sh
 	# Start the database container
 	docker compose up
+```
+
+Install Tailwind CSS.
+
+```sh
+	npm install -D tailwindcss postcss autoprefixer
+	npx tailwindcss init -p
+```
+
+Start your build process.
+
+```sh
+	# Start the build process (in a separate terminal tab)
+	npm run dev
+
+	# Alternatively, you can run this command in the main terminal tab
+	npm run build
 ```
 
 Run the application using PHP Artisan.
