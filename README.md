@@ -65,6 +65,12 @@ Install Tailwind CSS.
 	npx tailwindcss init -p
 ```
 
+Install Tailwind form plugin.
+
+```sh
+	npm install -D @tailwindcss/forms
+```
+
 Start your build process.
 
 ```sh
