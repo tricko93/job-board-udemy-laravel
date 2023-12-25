@@ -88,7 +88,7 @@ Run the application using PHP Artisan.
 	php artisan key:generate
 
 	# Run the database migrations
-	php artisan migrate
+	php artisan migrate --seed
 
 	# Run the application
 	php artisan serve
